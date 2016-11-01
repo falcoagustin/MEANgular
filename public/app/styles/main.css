@@ -1,0 +1,66 @@
+html,
+body,
+esri-map .map {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pane{
+  padding-left: 1em;
+}
+
+.main-container {
+  background-color: #e8e8e8;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.map-container {
+  box-shadow: 0 5px 15px rgba(0,0,0, .5);
+  display: inline-block;
+  height: 500px;
+  margin-left: 2%;
+  margin-top: 2em;
+  width: 500px;
+}
+
+.pin-form {
+  display: inline-block;
+  margin-left: 5%;
+  vertical-align: top;
+}
+
+.my-modal-dialog {
+  opacity: 0.5;
+  width: 300px;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.no-opacity {
+  opacity: 0.5;
+}
+
+.error {
+  color: red;
+}
+
+.user-info-container {
+  display: inline-block;
+  margin-left: 3em;
+  margin-top: 2em;
+  vertical-align: top;
+  width: 22%;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.success {
+  color: green;
+}
